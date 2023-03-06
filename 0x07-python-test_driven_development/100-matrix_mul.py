@@ -32,7 +32,7 @@ def matrix_mul(m_a, m_b):
     if flag == 1:
         raise TypeError("m_a can't be empty")
     if m_b == [] or m_b == [[]]:
-            raise TypeError("m_b can't be empty")
+        raise TypeError("m_b can't be empty")
     flag = 0
     for element_b in m_b:
         if element_b == []:
